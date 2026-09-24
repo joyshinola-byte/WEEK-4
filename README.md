@@ -10,7 +10,7 @@ For this project, the provided Excel spreadsheet contains **AAPL stock data**. T
 
 The main purpose of this project is to understand stock price movement, trading volume, moving averages, daily returns, and high-volatility periods through visualization and basic statistical analysis.
 
----
+
 
 ## Objectives
 
@@ -26,7 +26,7 @@ The main objectives of this project are:
 * To identify high-volatility periods.
 * To prepare a simple financial summary of the stock.
 
----
+
 
 ## Dataset
 
@@ -47,7 +47,7 @@ The main objectives of this project are:
 * **Close** – Closing stock price
 * **Volume** – Number of shares traded
 
----
+
 
 ## Tools and Technologies
 
@@ -58,7 +58,7 @@ The main objectives of this project are:
 * Seaborn
 * Microsoft Excel
 
----
+
 
 ## Data Loading
 
@@ -174,13 +174,12 @@ volatility_limit = df['Daily_Return'].std()
 high_volatility = df[
     abs(df['Daily_Return']) > volatility_limit
 ]
-```
 
 These periods show days where the stock return changed more than the calculated standard deviation.
 
 A line plot is also used to visualize daily returns and identify high-volatility periods.
 
----
+
 
 ## Financial Insight
 
@@ -197,7 +196,7 @@ The analysis provides information about:
 
 The moving averages help in understanding the stock trend, while the return distribution and standard deviation help in understanding the stability and volatility of the stock.
 
----
+
 
 ## Conclusion
 
@@ -209,4 +208,4 @@ The high-volatility analysis helps to identify periods when the daily stock retu
 
 Overall, this project provides a simple visualization-based understanding of stock price movement, return distribution, and volatility.
 
--
+
