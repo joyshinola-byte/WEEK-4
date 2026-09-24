@@ -181,7 +181,7 @@ A line plot is also used to visualize daily returns and identify high-volatility
 
 
 
-## Financial Insight
+**Financial Insight**
 
 The analysis provides information about:
 
@@ -198,7 +198,7 @@ The moving averages help in understanding the stock trend, while the return dist
 
 
 
-## Conclusion
+**Conclusion**
 
 This project helped to understand AAPL stock data using visualization and basic statistical analysis.
 
